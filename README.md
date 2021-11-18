@@ -29,6 +29,7 @@ Overall objectives of the assignment
 
 3. Explain the use of the “Simple random data” and “Permutations” functions.
 
+https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual
 
 4. Explain the use and purpose of at least five “Distributions” functions
 

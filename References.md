@@ -8,3 +8,21 @@ https://machinelearningmastery.com/gentle-introduction-n-dimensional-arrays-pyth
 
 https://pythonguides.com/python-numpy-random/
 
+https://numpy.org/devdocs/user/absolute_beginners.html
+
+https://data-flair.training/blogs/numpy-features/
+
+https://www.sharpsightlabs.com/blog/numpy-random-choice/
+
+https://codingstreets.com/introduction-to-python-numpy-random-permutations/
+
+https://numpy.org/doc/stable/reference/random/generator.html 
+
+https://wtmatter.com/numpy-uniform-distribution/
+
+https://corporatefinanceinstitute.com/resources/knowledge/other/uniform-distribution/ #part 3
+
+https://www.w3schools.com/python/numpy/numpy_random_uniform.asp
+
+https://www.youtube.com/watch?v=aCW8wm6nrRw
+
