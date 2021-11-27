@@ -4,20 +4,26 @@ HDip Data Analytics 2021 Programming for Data Analysis Assessment
 
 
 *Submitted by*: Ciara O' Sullivan (Student Number: G00398379)
+
 *Lecturer*: Brian McGinley
+
 *Programming Language used*: Python
+
 *Github respository at*:https://github.com/Cossie01/Programming-Assignment
 
 
 1. Introduction
-This README describes the overview of the overall basics and the history of the numpy random package, then digs deeper into the numpy random package. From there, it evaluated Simple Random data and Permutations function. Followed by an summary of five distruibution and their everyday uses. This leads us to the use of seeds when genetating pseudorandom numbers. 
+
+This README gives a quick overview of the Numpy Random Package in bullet form and follows this for part 3 
+
+
+An depth analysis then can be found in the Numpy.random.ipynb file where I describe the overview of the overall basics and the history of the numpy random package, then I dig deeper into the numpy random package. From there, the notebook evaluated Simple Random data and Permutations function. Followed by an summary of five distruibution and their everyday uses. This leads us to the use of seeds when genetating pseudorandom numbers. 
 
 Alongside the README, I examine and show my workings in a single jupyter notebook - called Numpy.random.ipynb 
 In order to view the notebook you will need to download it from this repository and open it in Juypter. Jupyter notebook/lab is installed with the introduction of the Anaconda program. If unfamiliar with these programms, it is also possible to view a static version using my direct link to my git hub (Github link:https://github.com/Cossie01/Programming-Assignment) Furthermore, all images and reference can be located in a seperate markdown file with the name References. I have also left some of my python code workings to show my continuous learning along the process in the notebook - Example Code.ipynb
 
 This repository contains aspects of four tasks outlined in the Programming brief which includes the following:
 
-- 
 Overall objectives of the assignment 
 . Explain the overall purpose of the package.
 . Explain the use of the “Simple random data” and “Permutations” functions.
@@ -25,17 +31,18 @@ Overall objectives of the assignment
 . Explain the use of seeds in generating pseudorandom numbers.
 
 
-2. 2.	The purpose of the Numpy Random Package.
+2. The purpose of the Numpy Random Package.
 -	Very fast application - faster to read less bytes of memory.
 -	Removes the use of For loops to speeds up the process.
 -	Uses single type for each element in the array. It has to be a an int, float or boolean.
 -	Uses less memory, for python lists it saves each element in memory using pointers. Numpy by passes this using continuous memory.
--	Saves coding time. Numpy checks the data type speding up the process.  
+-	Saves coding time. Numpy checks the data type speding up the process.
+-   Searching for any element in the array is way quicker
 
 
 3. Explain the use of the “Simple random data” and “Permutations” functions.
 
-https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual
+https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual was used in my assignment. 
 
 4. Explain the use and purpose of at least five “Distributions” functions
 
@@ -70,6 +77,16 @@ Exponential Distribution
 Binomial Distribution
 - Involved with statitical analyses of counts or how many times an event occured.
 - Flipping a coin, how many students passed an exam, boolean outcomes - how many was True shown, the success or failure of a drug in a clinical trial.
+- A special version of the Binomial Distribution is the Bernoulli distribution where one single trial is counted and the probability is a success 1 or a failure 0.
+
+Triangular Distribution
+- The shape of this distribution is exactly as the name suggests its Triangular in shape.
+- Effient and useful as we can often estimate the (a)minimum value (b) the max value we hope it should be (c) a random valuable that it is most likely to be
+- This can determine the sales in a restaurant, lifetime of a laptop, votes in election, project planning.
+- The area under the triangle = 1
+- Simplistic representation of the probability distribution when limited sample data is available
+![Triangular image](https://www.statology.org/wp-content/uploads/2021/01/trianglular1-1-768x620.png)
+
 
 5. Explain the use of seeds in generating pseudorandom numbers.
  - explain the difference between old and new algothrim PG64. 

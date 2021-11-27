@@ -1,3 +1,5 @@
+# Part 2 - The Numpy Random Package 
+
 https://scipy.github.io/old-wiki/pages/History_of_SciPy
 
 https://techvidvan.com/tutorials/python-numpy-tutorial/
@@ -13,6 +15,14 @@ https://pythonguides.com/python-numpy-random/
 https://numpy.org/devdocs/user/absolute_beginners.html
 
 https://data-flair.training/blogs/numpy-features/
+
+https://www.educba.com/software-development/software-development-tutorials/numpy-tutorial/
+
+https://www.oreilly.com/library/view/python-for-data/9781449323592/ch04.html
+
+
+
+# Part 3 - Simple Random Data and Permutation Function 
 
 https://www.sharpsightlabs.com/blog/numpy-random-choice/
 
@@ -34,9 +44,12 @@ https://www.geeksforgeeks.org/random-shuffle-function-in-python/?ref=gcse
 
 https://appdividend.com/2020/04/28/python-how-to-generate-random-permutation-in-numpy/
 
-#Part 4 - Distributions References
+# Part 4 - Distributions References
 
 https://www.sharpsightlabs.com/blog/numpy-random-choice/ 
+
+https://www.sharpsightlabs.com/blog/numpy-random-normal/
+
 https://www.spss-tutorials.com/normal-distribution/ 
 
 https://www.w3schools.com/python/numpy/numpy_random_normal.asp 
@@ -70,3 +83,20 @@ http://datacamp-community-prod.s3.amazonaws.com/263130e2-2c92-4348-a356-9ed9b503
 https://www.demo2s.com/python/python-numpy-random-binomial.html
 
 https://www.geeksforgeeks.org/python-binomial-distribution/
+
+https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/
+
+https://www.statology.org/wp-content/uploads/2021/01/trianglular1-1-768x620.png
+
+https://vitalflux.com/bernoulli-probability-distribution-explained-with-python-examples/
+
+https://www.statology.org/triangular-distribution-excel/
+
+https://www.statology.org/triangular-distribution/
+
+https://learnandteachstatistics.files.wordpress.com/2013/07/notes-on-triangle-distributions.pdf
+
+https://www.youtube.com/watch?v=3VylC_mIAjE
+
+https://uk.mathworks.com/help/stats/triangular-distribution.html
+
