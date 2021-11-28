@@ -100,3 +100,13 @@ https://www.youtube.com/watch?v=3VylC_mIAjE
 
 https://uk.mathworks.com/help/stats/triangular-distribution.html
 
+# Part 5 - Seeds
+
+https://www.youtube.com/watch?v=C82JyCmtKWg
+
+https://www.youtube.com/watch?v=4sYawx70iP4
+
+https://www.geeksforgeeks.org/pseudo-random-number-generator-prng/
+
+https://numpy.org/devdocs/reference/random/generator.html
+
