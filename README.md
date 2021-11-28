@@ -12,7 +12,7 @@ HDip Data Analytics 2021 Programming for Data Analysis Assessment
 *Github respository at*: https://github.com/Cossie01/Programming-Assignment
 
 
-1. Introduction
+# 1. Introduction
 
 This README gives a quick overview of the Numpy Random Package in bullet form. This allows for the reader to get a quick snapshot of each topic. Each section is divided into seven parts based on what was outlined in the assignment brief. An in-depth analysis then can be found in the Numpy.random.ipynb file where I describe the overview of the overall basics and the history of the numpy random package, then I dig deeper into the numpy random package. From there, the notebook evaluated Simple Random data and Permutations function. Followed by an summary of five distribution and their everyday uses. This leads us to the use of seeds when generating pseudorandom numbers. 
 
@@ -21,14 +21,18 @@ In order to view the notebook you will need to download it from this repository 
 This repository contains aspects of four tasks outlined in the Programming brief which includes the following:
 
 ## Overall objectives of the assignment 
-. Explain the overall purpose of the package.
-. Explain the use of the “Simple random data” and “Permutations” functions.
-. Explain the use and purpose of at least five “Distributions” functions.
-. Explain the use of seeds in generating pseudorandom numbers.
+*Explain the overall purpose of the package.*
+
+*Explain the use of the “Simple random data” and “Permutations” functions.*
+
+*Explain the use and purpose of at least five “Distributions” functions.*
+
+*Explain the use of seeds in generating pseudorandom numbers.*
 
 
 
-2. The purpose of the Numpy Package.
+
+# 2. The purpose of the Numpy Package.
 -	Very fast application - faster to read less bytes of memory.
 -	Removes the use of For loops to speeds up the process.
 -	Uses single type for each element in the array. It has to be a an int, float or boolean.
@@ -46,7 +50,7 @@ This repository contains aspects of four tasks outlined in the Programming brief
 - Probabilities can be placed into the functions.
 
 
-3. Explain the use of the “Simple Random Data” and “Permutations” functions.
+# 3. Explain the use of the “Simple Random Data” and “Permutations” functions.
 
 https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual was used in my assignment. 
 
@@ -67,17 +71,18 @@ https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual
 
 
 
-4. Explain the use and purpose of at least five “Distributions” functions
+# 4. Explain the use and purpose of at least five “Distributions” functions
 
 ## Uniform distribution
 
 - In statistics, uniform distribution can either be continuous or discrete. 
 - Each will have the same amount of outcomes and the probability of each outcome will be the same. 
 - Discrete has finite values for example rolling a dice: 6 possible outcomes [1,2,3,4,5,6]. You would not see 3.5 dots on a dice!
-- Continous can factor this in with 1.2, 6.77, 0.334 etc. 
+- Continuous on the other hand are able to work with these floats eg 1.2, 6.77, 0.334 etc. 
 - Using a deck of card in a game = discrete uniform distribution, as each player has an equal chance of pulling a heart as they do a spade.
 - Another real world example would be in a store room where a stock take should be taken and then with this distribution it can help guide the manager on how best to utilize the floor space.
-- Used in risk assessments in the Monte Carlo simulation.
+- Also used in risk assessments in the Monte Carlo simulation programs.
+- For this distribution, three parameters are passed through; a lower bound and high bound and the size of the array.
 
 
 ![Uniform](https://www.thoughtco.com/thmb/_AlCiAafNKlA4ttjmkNMsejrmdE=/1464x524/filters:fill(auto,1)/uniform-5814e2025f9b581c0baef8de.jpg)
@@ -95,22 +100,24 @@ https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual
 - The shape of the curve is influenced by the standard deviation.
 - Standard deviation is the measure how spread out the values are and is represented by the Greek letter sigma.
 - Standard deviation is associated with the 68-95-99.7 rule. This suggests that 68% of the data will lie within 1 standard deviation of the mean, 95% of the data will lie within 2 standard deviation of the mean and 99.7% of the data will lie within 3 standard deviation of the mean. 
-- Commonly categorised as unimodal (one peak)/
+- Commonly categorised as unimodal (one peak).
 - The total area under the curve is equal to 1.
 
 
+![image](https://th.bing.com/th/id/OIP.Vux5bpcQNbRv8TmZAUHVkwHaDa?pid=ImgDet&rs=1)
 
 
 ## Exponential Distribution
 
-- inverse of the Poisson process
-- Poisson example; the number of cars passing a toolgate in one hour: events per single unit of time
+- Inverse of the Poisson process.
+- Poisson example; the number of cars passing a tollgate in one hour: events per single unit of time
 - Exponential example; the number of hours between car arrivals: time per single event
-- Events must occur at a constant rate 
-- events must be independant of each other
-- PMF (Probability Mass Function) for Poisson
-- PDF for Exponential
-- CDF (Cummulative Density Function)
+- Events must occur at a constant rate and must be independent of each other.
+- It is mentioned that this is a continuous probability distribution used to predict the time to wait before the event occurs again.
+- It must contain two parameter (i) Scale; the inverse rate (ii) Size; the array size.
+- Example of this is amount of time a laptop battery lasts, length of time in minutes of a phone call, 
+
+![image](https://www.efunda.com/math/distributions/images/ExpDistPlot.gif)
 
 ## Binomial Distribution
 - Involved with statilitical analyses of counts or how many times an event occured.
@@ -129,7 +136,7 @@ https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual
 ![Triangular image](https://www.statology.org/wp-content/uploads/2021/01/trianglular1-1-768x620.png)
 
 
-5. Explain the use of seeds in generating pseudorandom numbers.
+# 5. Explain the use of seeds in generating pseudorandom numbers.
 
 ![image](https://quotefancy.com/media/wallpaper/3840x2160/5413652-Donald-Knuth-Quote-Random-numbers-should-not-be-generated-with-a.jpg)
  - explain the difference between old and new algothrim PG64. 
@@ -149,6 +156,10 @@ https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual
  - The numpy package uses the PCG64 core generator. 
  
  
-6. Conclusion
+# 6. Conclusion
 
-7. References
+
+
+# 7. References
+
+These can be found in the markdown file called References.

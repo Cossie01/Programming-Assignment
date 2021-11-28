@@ -44,6 +44,8 @@ https://www.geeksforgeeks.org/random-shuffle-function-in-python/?ref=gcse
 
 https://appdividend.com/2020/04/28/python-how-to-generate-random-permutation-in-numpy/
 
+
+
 # Part 4 - Distributions References
 
 https://www.sharpsightlabs.com/blog/numpy-random-choice/ 
@@ -100,6 +102,14 @@ https://www.youtube.com/watch?v=3VylC_mIAjE
 
 https://uk.mathworks.com/help/stats/triangular-distribution.html
 
+https://libguides.library.curtin.edu.au/uniskills/numeracy-skills/statistics/normal-distribution
+
+https://courses.lumenlearning.com/introstats1/chapter/the-exponential-distribution/#:~:text=The%20exponential%20distribution%20is%20often%20concerned%20with%20the,and%20the%20amount%20of%20time%2C%20in%20months%2C%20
+
+https://www.efunda.com/math/distributions/ExpDistPlot.cfm
+
+
+
 # Part 5 - Seeds
 
 https://www.youtube.com/watch?v=C82JyCmtKWg
@@ -111,3 +121,7 @@ https://www.geeksforgeeks.org/pseudo-random-number-generator-prng/
 https://numpy.org/devdocs/reference/random/generator.html
 
 https://quotefancy.com/media/wallpaper/3840x2160/5413652-Donald-Knuth-Quote-Random-numbers-should-not-be-generated-with-a.jpg
+
+https://www.pcg-random.org/
+
+https://towardsdatascience.com/random-numbers-in-numpy-89172d6eac16
