@@ -108,6 +108,7 @@ https://courses.lumenlearning.com/introstats1/chapter/the-exponential-distributi
 
 https://www.efunda.com/math/distributions/ExpDistPlot.cfm
 
+https://www.r-bloggers.com/2019/10/an-intuitive-real-life-example-of-a-binomial-distribution-and-how-to-simulate-it-in-r-learn-it-once-use-it-everyday/
 
 
 # Part 5 - Seeds

@@ -120,47 +120,57 @@ https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual
 ![image](https://www.efunda.com/math/distributions/images/ExpDistPlot.gif)
 
 ## Binomial Distribution
-- Involved with statilitical analyses of counts or how many times an event occured.
-- Flipping a coin, how many students passed an exam, boolean outcomes - how many was True shown, the success or failure of a drug in a clinical trial.
+
+- Involved with statistical analyses of counts or how many times an event occurred.
+- Flipping a coin, how many students passed an exam, Boolean outcomes - how many was True shown, the success or failure of a drug in a clinical trial.
+- The test must accomplish repeated trials, outcome; yes or no, 1 or 0, the probability of success is constant and they are independent of each other.
 - A special version of the Binomial Distribution is the Bernoulli distribution where one single trial is counted and the probability is a success 1 or a failure 0.
+- If the sample is large enough the shape of the curve could look similar to a normal distribution.
+- Normal distribution is a continuous data that is symmetrical, while binomial has an finite sample. 
+- This distribution can be found in new drug experiments whether a drug has cured the patient Yes of No, Success or Failure. Number of crime cases that have been resolved or unsolved.
+
 
 ![image](https://dataatomic.com/post/2019-10-28-an-intuitive-example-for-a-binomial-distribution_files/figure-html/install%20packages-1.png)
 
 ## Triangular Distribution
+
 - The shape of this distribution is exactly as the name suggests its Triangular in shape.
-- Effient and useful as we can often estimate the (a)minimum value (b) the max value we hope it should be (c) a random valuable that it is most likely to be
+- Efficient  and useful as we can often estimate the (a)minimum value (b) the max value we hope it should be (c) a random valuable that it is most likely to be
 - This can determine the sales in a restaurant, lifetime of a laptop, votes in election, project planning.
 - The area under the triangle = 1
 - Simplistic representation of the probability distribution when limited sample data is available.
 - Often 'best guess' when estimating the min and max points.
-- When the distance of (a) and (c) widens, the densitiy of the values decrease.
+- When the distance of (a) and (c) widens, the density of the values decrease.
 - The location of the peak determines whether the pdf skews right or left, or if it is symmetrical.
+
 ![Triangular image](https://www.statology.org/wp-content/uploads/2021/01/trianglular1-1-768x620.png)
 
 
 # 5. Explain the use of seeds in generating pseudorandom numbers.
 
 ![image](https://quotefancy.com/media/wallpaper/3840x2160/5413652-Donald-Knuth-Quote-Random-numbers-should-not-be-generated-with-a.jpg)
- - explain the difference between old and new algothrim PG64. 
+
  - Computers are said to be Deterministic, meaning the actions are determined by a prescribed set of instructions.
- - Its hard for computers to create random numbers as they take input and produce and output. 
+ - It is hard for computers to create random numbers as they take input and produce and output. 
  - Best way around is to produce Pseudo Random numbers. 
  - With real random numbers the user cant retest the sequence.
  - Generating pseudo random numbers you do not need to store the long sequence of numbers only the seed. 
- - Pseudorandom numbers are easily repliciable, no other device needed and efficient.
- - Disadvance is that they are not actually random but appear to be somewhat random.
+ - Pseudorandom numbers are easily replicable, no other device needed and efficient.
+ - Disadvantage is that they are not actually random but appear to be somewhat random.
  - All sequence of pseudorandom numbers eventually repeat.
  - The seed can be determined as the encryption key. 
  - By reusing a seed we can reproduce the same data multiple times. 
  - The number of terms in sequence before it repeats is called the period.
  - Two methods of PRNG are the Middle Square Number and Linear Congruential Generator
  - Pseudorandom numbers are perfect for simulation or modelling in programs but not efficient for data encryption or gaming such as poker. 
- - The numpy package uses the PCG64 core generator. 
+ - The newest version of the numpy package uses the PCG64 core generator. 
  
  
 # 6. Conclusion
 
+In conclusion, this research has examined the functions and uses of numpy.random package. Fundamentally, this tool is efficient at manipulating large volumes of data by arranging them into N-darrays. From there, the user can slice, index, sort and search through as well as many other operations as mentioned above. In the world of data science and statistics, the ability to produce random numbers to test your code or manipulate data or shuffle a training set is very important. 
 
+The numpy package is also open sourced so it is always being updated so the newest code can be used. While the official documentation of numpy can be verbose, there are many other websites that will explain it more straightforward, some of which are found in the reference notebook. In the numpy.random notebook, I hoped I have explained how random numbers are created, how they are shuffled and how the random numbers can be shown in various distribution. Finally, I demonstrated the use of seeds and how they impact the sequence of pseudo numbers. I believe I will no doubt use this in other assignments alongside my work projects. 
 
 # 7. References
 
