@@ -115,7 +115,7 @@ https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual
 - Events must occur at a constant rate and must be independent of each other.
 - It is mentioned that this is a continuous probability distribution used to predict the time to wait before the event occurs again.
 - It must contain two parameter (i) Scale; the inverse rate (ii) Size; the array size.
-- Example of this is amount of time a laptop battery lasts, length of time in minutes of a phone call, 
+- Example of this is amount of time a laptop battery lasts, length of time in minutes of a phone call, value of change in your pocket over time.
 
 ![image](https://www.efunda.com/math/distributions/images/ExpDistPlot.gif)
 
@@ -123,6 +123,8 @@ https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual
 - Involved with statilitical analyses of counts or how many times an event occured.
 - Flipping a coin, how many students passed an exam, boolean outcomes - how many was True shown, the success or failure of a drug in a clinical trial.
 - A special version of the Binomial Distribution is the Bernoulli distribution where one single trial is counted and the probability is a success 1 or a failure 0.
+
+![image](https://dataatomic.com/post/2019-10-28-an-intuitive-example-for-a-binomial-distribution_files/figure-html/install%20packages-1.png)
 
 ## Triangular Distribution
 - The shape of this distribution is exactly as the name suggests its Triangular in shape.
