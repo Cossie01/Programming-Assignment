@@ -14,13 +14,9 @@ HDip Data Analytics 2021 Programming for Data Analysis Assessment
 
 1. Introduction
 
-This README gives a quick overview of the Numpy Random Package in bullet form and follows this for part 3 
+This README gives a quick overview of the Numpy Random Package in bullet form. This allows for the reader to get a quick snapshot of each topic. Each section is divided into seven parts based on what was outlined in the assignment brief. An in-depth analysis then can be found in the Numpy.random.ipynb file where I describe the overview of the overall basics and the history of the numpy random package, then I dig deeper into the numpy random package. From there, the notebook evaluated Simple Random data and Permutations function. Followed by an summary of five distribution and their everyday uses. This leads us to the use of seeds when generating pseudorandom numbers. 
 
-
-An depth analysis then can be found in the Numpy.random.ipynb file where I describe the overview of the overall basics and the history of the numpy random package, then I dig deeper into the numpy random package. From there, the notebook evaluated Simple Random data and Permutations function. Followed by an summary of five distruibution and their everyday uses. This leads us to the use of seeds when genetating pseudorandom numbers. 
-
-Alongside the README, I examine and show my workings in a single jupyter notebook - called Numpy.random.ipynb 
-In order to view the notebook you will need to download it from this repository and open it in Juypter. Jupyter notebook/lab is installed with the introduction of the Anaconda program. If unfamiliar with these programms, it is also possible to view a static version using my direct link to my git hub (Github link: https://github.com/Cossie01/Programming-Assignment) Furthermore, all images and reference can be located in a seperate markdown file with the name References. I have also left some of my python code workings to show my continuous learning along the process in the notebook - Example Code.ipynb
+In order to view the notebook you will need to download it from this repository and open it in Juypter. Jupyter notebook/lab is installed with the introduction of the Anaconda program. If unfamiliar with these programs, it is also possible to view a static version using my direct link to my git hub (Github link: https://github.com/Cossie01/Programming-Assignment). Furthermore, all images and reference can be located in a separate markdown file with the name References. I have also left some of my python code workings to show my continuous learning along the process in the notebook - Example Code.ipynb
 
 This repository contains aspects of four tasks outlined in the Programming brief which includes the following:
 
@@ -31,15 +27,16 @@ Overall objectives of the assignment
 . Explain the use of seeds in generating pseudorandom numbers.
 
 
+
 2. The purpose of the Numpy Package.
 -	Very fast application - faster to read less bytes of memory.
 -	Removes the use of For loops to speeds up the process.
 -	Uses single type for each element in the array. It has to be a an int, float or boolean.
 -	Uses less memory, for python lists it saves each element in memory using pointers. Numpy by passes this using continuous memory.
 -	Saves coding time. Numpy checks the data type speding up the process.
--   Searching for any element in the array is way quicker
+-   Searching for any element in the array is way quicker.
 
-Numpy Random Package
+Numpy Random Package a sub package of the main Numpy Package
 
 - Generates arrays containing a selection of random numbers.
 - Ability to handle large volumes of arrays compared to the Python built in random function.
@@ -49,9 +46,26 @@ Numpy Random Package
 - Probabilities can be placed into the functions.
 
 
-3. Explain the use of the “Simple random data” and “Permutations” functions.
+3. Explain the use of the “Simple Random Data” and “Permutations” functions.
 
 https://numpy.org/doc/stable/reference/random/generator.html Version 1.21 Manual was used in my assignment. 
+
+Simple Random Data 
+
+- Simple Random data allows the user to randomely pick an array of numbers by inputing the lowest, highest and the probability. 
+- Data can be of different types whether it to be floats or integers within the range we decide. 
+- It is useful to create random numbers to experiment on or to display different data distributions.
+- With the Simple Random Data function it has four associated subfunctions (i)Integers, (ii) Random, (iii)Choice, (iv)Bytes. 
+- All of which are explained and example code in the notebook Numpy.random.ipynb.
+
+Permutations
+
+- The permutation function allows the user to decide on how the data is to be shuffled or transposed. 
+- A permutation is how the elements are arranged. They may have the same count of elements but they can have different variations. 
+- Associated is three functions (i) Shuffle (ii)Permutation (iii)Permuted. 
+- All of which again are explained further in the notebook Numpy.random.ipynb.
+
+
 
 4. Explain the use and purpose of at least five “Distributions” functions
 
