@@ -110,3 +110,4 @@ https://www.geeksforgeeks.org/pseudo-random-number-generator-prng/
 
 https://numpy.org/devdocs/reference/random/generator.html
 
+https://quotefancy.com/media/wallpaper/3840x2160/5413652-Donald-Knuth-Quote-Random-numbers-should-not-be-generated-with-a.jpg
